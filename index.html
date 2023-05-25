@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- AWP_In_Variable Name='"HPM"' -->
+	  <title>Web orriaren izenburua</title>
+    <link rel="stylesheet" type="text/css" href="css/5.erronka.css">
+</head>
+<body>
+  <header>
+	<h1>5.ERRONKA</h1>
+	<p>Alvaro Ortiz eta Josu Martinez de Zuazo</p>
+</header>
+<section>
+<div>
+  <p><span id="spanPLCriEskaerak"></span> eskaerak bidali dizkio nabigatzaileak PLCren zerbitzariari</p>
+</div>
+<div>
+    <h2>IRTEERAK</h2>
+    <table>
+        <tr>
+          <th>ALDAGAIA</th>
+          <th>DESKRIBAPENA</th>
+          <th>BALIOA</th>
+        </tr>
+        <tr>
+          <td>LUZ_ROJA</td>
+          <td>PROZEZUA_MARTXAN_DAGO ?</td>
+          <td id="tdPROZEZUA_MARTXAN_DAGO?"><img src='img/pilotoOFF.JPG' alt=':="LUZ ROJA":'/></td>
+        </tr>
+        <tr>
+            <td>"IEC_Counter_0_DB"</td>
+            <td>ZENBAT_ZIKLO_EGIN_DITU?</td>
+            <td id="tdZENBAT_ZIKLO_EGIN_DITU?">:="IEC_Counter_0_DB".CV:</td>
+        </tr>
+      </table> 
+      <p id="pJSON-error" class="error"></p>
+    </div>
+<div>
+    <form id="form1" method="post" action="">
+        <h2>PM SARRERA</h2>
+        <p>PM MARTXAN JARRI: </p>
+        <!--
+        <input type="text" name='"HPM"' value=':="HPM":'/>
+        <input type="submit" value="Bidali PLC-ra"/>
+        -->
+        <p id="pHPM"><img src=""/></p>
+        <input type="hidden" name='"HPM"'/>
+    </form>
+</div>
+</section>
+<footer>
+    <p>&copy; 2023 Alvaro eta Josu - 5.ERRONKA - WEB. Eskubide guztiak erreserbatuak. </p>
+</footer>
+<script src="js/irteerak-freskatzeko.js" type="text/javascript"></script>
+</body>
+</html>
+  

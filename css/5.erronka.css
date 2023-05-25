@@ -1,0 +1,118 @@
+/* Orrialde nagusia */
+header {
+    background-color: #267daf;
+    color: white;
+    padding: 10px;
+}
+
+header img {
+    /*margin-left: auto;  IMG etiketa eskuinera lerrokatzea */
+    height: 90px;
+  }
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Taula */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #2282a4;
+    padding: 8px;
+    text-align: left;
+}
+th:first-child,
+td:first-child {
+    width: 25%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 50%;
+}
+
+th:last-child,
+td:last-child {
+    width: 25%;
+}
+th {
+    background-color: #239ab4;
+    color: white;
+}
+#tdPROZEZUA_MARTXAN_DAGO img {
+    width: 30px;
+}
+
+#pHPM img {
+  height: 75px;
+}
+
+#pHPM img:hover{
+    cursor: grab;
+}
+
+/* Formularioa */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background-color: #198aba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ddd;
+    color: #185fb1;
+}
+footer {
+    background-color: #0062ff;
+    color: #ffffff;
+    padding: 10px;
+    font-size: smaller;
+    font-family: "Arial Narrow", sans-serif;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    color: #2e1ed6;
+}
+
+.error{
+    font-size: small;
+    color: red;
+    font-weight: bold;
+}
