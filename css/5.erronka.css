@@ -48,12 +48,15 @@ th {
     background-color: #239ab4;
     color: white;
 }
-#tdPROZEZUA_MARTXAN_DAGO img {
+
+img {
     width: 30px;
+    height: 30px;
 }
 
 #pHPM img {
   height: 75px;
+  width: 37px;
 }
 
 #pHPM img:hover{
